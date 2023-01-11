@@ -32,6 +32,8 @@ to STDOUT (console). Instead, the location of output is redirected to a newly cr
 
 ![img1](./images/outputredir.png)
 
-**Command piping (|) - Command piping is used to transfer the output commands; the output of one command will act as input to another.**
+**Command piping (|) - Command piping is used to transfer the output commands; the output of one command will
+act as input to another. By default, cat would print all contents of the specified file to the console. Instead,
+the output is piped into the subsequent grep command (serving as its input), resulting in a the ouput of all instances**
 
 ![img1](./images/pipecmds.png)
