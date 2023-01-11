@@ -2,4 +2,4 @@
 that supports various functionalities, all of which are detailed and demonstrated
 in the test cases below!**
 
-![img1](./images/readme1.png)
+![img1](./images/LLdiag.drawio.png)
