@@ -40,6 +40,6 @@ of the text "printf" in *my_ls.c* being printed to the console.
 
 ![img1](./images/pipecmds.png)
 
-**Background running (&)** - Like an actual linux shell, processes can be run in the background; while one process is executing, the shell prompt returns to allow the user to continue entering commands.
+**Background running (&)** - Like an actual Linux shell, processes can be run in the background; while one process is executing, the shell prompt returns to allow the user to continue entering commands.
 
 ![img1](./images/bckgrndrun.png)
