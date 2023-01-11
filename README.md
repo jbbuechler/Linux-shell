@@ -22,7 +22,7 @@ the external command.**
 
 ![img1](./images/cdandpwd.png)
 
-**External command w/ Input redirection (<)** - The grep command's source of input is redirected to my_shell.c
+**External command w/ Input redirection (<)** - The grep command's source of input is redirected to *my_shell.c*
 file, resulting in a search for all instances of the text "printf" within the specified 
 file being printed to the console.
 
