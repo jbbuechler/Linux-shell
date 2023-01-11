@@ -31,3 +31,7 @@ file, resulting in a search for all instances of the text *printf* within the sp
 to STDOUT (console). Instead, the location of output is redirected to a newly created text file, *out.txt*.**
 
 ![img1](./images/outputredir.png)
+
+**Command piping (|) - Command piping is used to transfer the output commands; the output of one command will act as input to another.**
+
+![img1](./images/pipecmds.png)
