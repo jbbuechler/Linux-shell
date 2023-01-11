@@ -11,3 +11,7 @@ process then makes another system call, execvp(), which overwrites the child to 
 the external command.**
 
 ![img1](./images/LLdiag.drawio.png)
+
+**TEST CASES:**
+
+![img1](./images/LLdiag.drawio.png)
