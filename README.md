@@ -6,7 +6,7 @@ in the test cases below!**
 
 **The sequence diagram above describes how the shell functions; a user command is 
 first entered and parsed. If the command is internal (defined and supported
-by my shell - *cd*/*pwd*/etc), it is simply executed by the shell - the parent process. 
+by my shell - *cd*/*pwd*/etc), it is simply executed by the shell (parent process). 
 If the command is external (undefined by my shell - *grep*/*cat*/etc), the *fork()* system
 call is used to duplicate the shell process and create an identical child process. The child
 process then makes another system call, *execvp()*, which overwrites the child to execute
