@@ -49,7 +49,7 @@ by *Ctrl-C* and *Ctrl-D* on the keyboard. The first enables the termination of a
 
 ![img1](./images/signals.png)
 
-**Local external commands** - The shell's support of external commands includes but is not limited to those defined by linux (*cat*/*grep*/*ls*/etc). The shell can execute any user-written program as a command, so long as the path is provided. This test case demonstrates the execution of my local implementations of the *ls* and *cat* commands that are found in the project directory, *my_ls.c* and *my_cat.c*.
+**Local external commands** - The shell's support of external commands includes but is not limited to those defined by linux (*cat*/*grep*/*ls*/etc). The shell can execute any user-written program as a command, so long as the path is provided. This test case demonstrates the execution of my local implementations of the *ls* (*my_ls.c*) and *cat* (*my_cat.c*) commands that are found in the project directory.
 
 ![img1](./images/localls.png)
 
