@@ -18,6 +18,10 @@ Execution of external command *cat* using *fork()* and *execvp()*.
 
 ![img1](./images/forkandexec.png)
 
+Processing internal commands *cd* and *pwd*.
+
+![img1](./images/cdandpwd.png)
 
 
-![img1](./images/forkandexec.png)
+
+![img1](./images/cdandpwd.png)
