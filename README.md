@@ -14,7 +14,7 @@ the external command.**
 
 **TEST CASES:**
 
-**Execution of external command *cat* using *fork()* and *execvp()*.**
+**Execution of basic external command *cat* using *fork()* and *execvp()*.**
 
 ![img1](./images/forkandexec.png)
 
@@ -22,18 +22,18 @@ the external command.**
 
 ![img1](./images/cdandpwd.png)
 
-**Input redirection (<) - The grep command's source of input is redirected to my_shell.c
+**External command w/ Input redirection (<) - The grep command's source of input is redirected to my_shell.c
 file, resulting in a search for all instances of the text *printf* within the specified 
 file being printed to the console.**
 
 ![img1](./images/inputredir.png)
 
-**Output redirection (>) - By default, the cat command prints the contents of a specified file
+**External command w/ Output redirection (>) - By default, the cat command prints the contents of a specified file
 to STDOUT (console). Instead, the location of output is redirected to a newly created text file, *out.txt*.**
 
 ![img1](./images/outputredir.png)
 
-**Command piping (|) - Piping is used to transfer the output commands; the output of one command will
+**External command w/ Piping (|) - Piping is used to transfer the output commands; the output of one command will
 act as input to another. By default, cat would print all contents of the specified file to the console. Instead,
 this output is piped into the subsequent grep command (serving as its input), resulting in all instances
 of *printf* in *my_ls.c* being printed to the console.**
