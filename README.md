@@ -14,7 +14,7 @@ the external command.**
 
 **TEST CASES:**
 
-**Execution of basic external command *cat* using *fork()* and *execvp()*.**
+**Execution of basic external command *cat* using *fork()* and *execvp() system calls*.**
 
 ![img1](./images/forkandexec.png)
 
