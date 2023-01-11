@@ -45,6 +45,6 @@ of the text "printf" in *my_ls.c* being printed to the console.
 ![img1](./images/bckgrndrun.png)
 
 **Signal handling** - A signal is a software generated interrupt that is sent to a process by the operating system. In the C Standard Library, signal processing/handling defines how a program handles various signals while it executes. This test case demonstrates the handling of two signals generated
-by Control-D and Control-C on the keyboard. The first
+by Control-C and Control-D on the keyboard. The first enables the termination of a running child process without terminating the parent (the shell). The latter enables the termination of the parent process, stopping the shell's execution.
 
 ![img1](./images/signals.png)
