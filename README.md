@@ -22,6 +22,10 @@ Processing internal commands *cd* and *pwd*.
 
 ![img1](./images/cdandpwd.png)
 
+Input redirection
 
+![img1](./images/inputredir.png)
 
-![img1](./images/cdandpwd.png)
+Output redirection
+
+![img1](./images/outputredir.png)
