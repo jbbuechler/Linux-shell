@@ -22,11 +22,12 @@ the external command.**
 
 ![img1](./images/cdandpwd.png)
 
-**Input redirection (<) - grep command source of input redirected to my_shell.c
+**Input redirection (<) - The grep command's source of input is redirected to my_shell.c
 file, resulting in a search for all instances of the text *printf* within the specified file.**
 
 ![img1](./images/inputredir.png)
 
-**Output redirection**
+**Output redirection (>) - By default, the cat command prints the contents of a specified file
+to STDOUT (console). Instead, the location of output is redirected to a newly created text file, *out.txt*.**
 
 ![img1](./images/outputredir.png)
