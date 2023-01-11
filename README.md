@@ -48,3 +48,9 @@ of the text "printf" in *my_ls.c* being printed to the console.
 by *Ctrl-C* and *Ctrl-D* on the keyboard. The first enables the termination of a running child process without terminating the parent (the shell). The latter enables the termination of the parent process, stopping the shell's execution.
 
 ![img1](./images/signals.png)
+
+**Local external commands** - The shell's support of external commands includes but is not limited to those defined by linux (*cat*/*grep*/*ls*/etc). The shell can execute any user-written program as a command, so long as the path is provided. This test case demonstrates the execution of my local implementations of the *ls* and *cat* commands, *my_ls.c* and *my_cat.c*.
+
+![img1](./images/localls.png)
+
+![img1](./images/localcat.png)
