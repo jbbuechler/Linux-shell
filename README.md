@@ -18,12 +18,12 @@ the external command.**
 
 ![img1](./images/forkandexec.png)
 
-**Processing internal commands *cd* and *pwd*.**
+**Processing internal commands *cd* (change directory) and *pwd* (print working directory).**
 
 ![img1](./images/cdandpwd.png)
 
 **Input redirection (<) - grep command source of input redirected to my_shell.c
-file, resulting in a search for the text *printf* within the specified file.**
+file, resulting in a search for all instances of the text *printf* within the specified file.**
 
 ![img1](./images/inputredir.png)
 
