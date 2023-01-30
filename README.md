@@ -37,7 +37,7 @@ to STDOUT (console). Instead, the location of output is redirected to a newly cr
 
 ![img1](./images/outputredir.png)
 
-**External command w/ Piping (|)** - Piping is used to transfer the output commands; the output of one command will
+**External command w/ Piping (|)** - Piping is used to transfer the output of commands; the output of one command will
 act as input to another. By default, cat would print all contents of the specified file to the console. Instead,
 this output is piped into the subsequent grep command (serving as its input), resulting in all instances
 of the text "printf" in *my_ls.c* being printed to the console.
